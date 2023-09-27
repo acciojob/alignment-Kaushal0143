@@ -1,1 +1,24 @@
 /*  your css code here. If applicable */
+.middle{
+	width:100vw;
+	margin:10px;
+}
+.middle,td,tr{
+	border:1px solid black;
+}
+td{
+	width:100vw;
+	height:20px;
+}
+#t11,#t12,#t13{
+	text-align:right;
+	align:center;
+}
+.center{
+	text-align:center;
+	align:center;
+}
+#t21{
+	border-top:none;
+}
+
