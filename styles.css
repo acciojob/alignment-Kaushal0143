@@ -1,7 +1,11 @@
 /*  your css code here. If applicable */
+#heading{
+	
+}
 .middle{
 	width:100vw;
-	margin:10px;
+	margin:20px;
+	align:center;
 }
 .middle,td,tr{
 	border:1px solid black;
@@ -9,6 +13,8 @@
 td{
 	width:100vw;
 	height:20px;
+	padding:1px;
+	border-spacing:1px;
 }
 #t11,#t12,#t13{
 	text-align:right;
@@ -21,4 +27,21 @@ td{
 #t21{
 	border-top:none;
 }
+.bottom-border{
+	border-bottom:none;
+}
+.top-border{
+	border-top:none;
+}
+#last-row{
+	border-bottom:none;
+}
+#table-3>tbody tr:first-child{
+	background-color:green;
+}
+#table-3>tbody tr:last-child{
+	background-color:blue;
+}
+
+
 
